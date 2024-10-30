@@ -1,0 +1,53 @@
+input{border:0px solid #000; margin:0; background:transparent; max-width:250px; color:white}
+table tr td{border-right:1px solid #000; border-bottom:1px solid #000;}
+table{background: #fff none repeat scroll 0 0;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;}
+    table tr:nth-child(even){background:#ccc;}
+    table tr:nth-child(odd){background:#eee;}
+
+.table, th, td{
+	color: black;
+	background-color: rgb(245,128,32, .2);
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.tabelaMF {
+	overflow-Y: auto;
+	max-height: 400px;
+	overflow-x: auto;
+}
+
+table{
+	overflow: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+th {
+	color: black;
+	text-align: center;
+}
+
+thead {
+	border-width: 10px 10px 0px 10px;
+	border-color: rgb(245,128,32);
+	border-style: inset;
+	border-radius:25px;
+	display: fix;
+}
+
+tbody {
+	border-width: 0px 10px;
+	border-style: inset;
+	border-color: rgb(245,128,32);
+	border-radius:25px;
+}
+
+.columnfilter {
+	background-color: black; 
+	color:orange;
+}

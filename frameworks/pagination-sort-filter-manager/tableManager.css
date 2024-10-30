@@ -1,0 +1,103 @@
+a {
+	text-decoration: none;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: var(--geral-cor-cinza1);
+}
+table {
+   border: 1px solid var(--geral-cor-cinzaC1);
+}
+th{
+	border-bottom: 1px solid #bbb;
+}
+tr:nth-child(even) {
+	background-color: var(--geral-cor-cinzaM);
+}
+
+th {
+	background-color: var(--geral-cor-cinzaC2);
+}
+th,td {
+	padding: 5px;
+}
+/*Initial style sort*/
+.tablemanager th.sorterHeader {
+	cursor: pointer;
+}
+.tablemanager th.sorterHeader:after {
+	content: " \f0dc";
+	font-family: "FontAwesome";
+}
+/*Style sort desc*/
+.tablemanager th.sortingDesc:after {
+	content: " \f0dd";
+	font-family: "FontAwesome";
+}
+/*Style sort asc*/
+.tablemanager th.sortingAsc:after {
+	content: " \f0de";
+	font-family: "FontAwesome";
+}
+/*Style disabled*/
+.tablemanager th.disableSort {
+
+}
+#for_numrows {
+	padding: 10px;
+	float: left;
+}
+#for_filter_by {
+	padding: 10px;
+	float: right;
+}
+#pagesControllers {
+	display: block;
+	text-align: center;
+}
+
+.currentPage{
+	border: .2px solid var(--geral-cor-laranja);
+	border-radius: 15px 5px;
+}
+
+
+button.btn-primary, button.btn-primary:visited, button.btn-primary:active{
+	padding: 5px 12px;
+	background-color: var(--geral-cor-cinzaB);
+	color: var(--geral-cor-branco);
+	border-radius: 15px 5px;
+}
+
+button.btn-primary:hover {
+	border: 1px solid var(--geral-cor-laranja);
+	padding: 5px 12px;
+	background-color: var(--geral-cor-cinzaM);
+	background-image: radial-gradient(circle, var(--geral-cor-cinzaM) 0%, var(--geral-cor-cinzaB) 100%, var(--geral-cor-cinzaC2) 100%);
+	color: var(--geral-cor-branco);
+	border-radius: 15px 5px;
+}
+
+button.btn-primary:cliked {
+	border: 1px solid var(--geral-cor-cinzaC2);
+	padding: 5px 12px;
+	background-color: var(--geral-cor-laranja);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: var(--geral-cor-preto);
+	border-radius: 15px 5px;
+}
+
+label.Ativo{
+	color: var(--geral-cor-branco);
+	padding: 5px;
+	background-color:var(--geral-cor-verde);
+}
+
+label.Desativo{
+	color: var(--geral-cor-branco);
+	padding: 5px;
+	background-color:var(--geral-cor-vermelho);
+}

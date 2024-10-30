@@ -1,0 +1,104 @@
+.tabelaMF {
+	overflow-Y: auto;
+	overflow-x: auto;
+
+}
+
+button.btn-primary, button.btn-primary:visited, button.btn-primary:active{
+	padding: 5px 12px;
+	border-radius: 4px;
+	background-color: var(--geral-cor-cinzaB);
+	color: var(--geral-cor-branco);
+	border-radius: 15px 5px;
+}
+
+button.btn-primary:hover {
+	border: 1px solid var(--geral-cor-laranja);
+	border-radius: 4px;
+	padding: 5px 12px;
+	background-color: var(--geral-cor-cinzaM);
+	background-image: radial-gradient(circle, var(--geral-cor-cinzaM) 0%, var(--geral-cor-cinzaB) 100%, var(--geral-cor-cinzaC2) 100%);
+	color: var(--geral-cor-branco);
+	border-radius: 15px 5px;
+}
+
+button.btn-primary:cliked {
+	border: 1px solid var(--geral-cor-cinzaC2);
+	border-radius: 4px;
+	padding: 5px 12px;
+	background-color: var(--geral-cor-laranja);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: var(--geral-cor-preto);
+	border-radius: 15px 5px;
+}
+
+h1, th {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+}
+
+label {
+	transition: 0.6s;
+	color: white;
+}
+
+input,select {
+	height: 30px;
+	background-color: white;
+}
+
+.table>:not(caption)>*>*{
+	padding: 0.1px;
+	border-color: var(--geral-cor-cinza1);
+}
+
+#checkedValue, .htCheckboxRendererInput, input[type="checkbox"] {
+	margin-left: 20px;
+}
+
+.table{
+	background-color: var(--geral-cor-cinzaB);
+	font-family: Nunito-Regular;
+	border-radius:1px;
+	border: 5px solid var(--geral-cor-cinzaB);
+}
+
+th,label{
+	color: white;
+}
+
+h1, h2{
+	color: black;
+	font-family: Nunito-Regular;
+}
+
+body[data-layout-mode='boxed'][data-layout-color='dark'] h1{
+	color: white;
+}
+
+body[data-layout-mode='boxed'][data-layout-color='dark'] h2{
+	color: white;
+}
+
+.table_format_filter  {
+	font-size: 14px;
+	font-family: Nunito-Regular;
+}
+
+.handsontable THEAD TH.color1 {
+	background-color: var(--geral-cor-cinzaB);
+	color: var(--geral-cor-branco);
+	border-color: var(--geral-cor-cinzaB);
+}
+
+.handsontableEditor.autocompleteEditor, .handsontableEditor.autocompleteEditor .ht_master .wtHolder {
+	min-height: 138px;
+}
+
+.visualizarColaborador{
+	border: 2px solid var(--geral-cor-branco);
+}

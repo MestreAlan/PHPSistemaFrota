@@ -1,0 +1,116 @@
+
+button.btn-primary {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btn-primary:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: black;
+}
+
+button.btnSalvar {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btnSalvar:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgb(0,128,0) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: white;
+}
+
+button.btnExcluir {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btnExcluir:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgb(255,0,0) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: white;
+}
+
+
+
+
+
+
+.visualizarColaborador {
+	color: white;
+	text-align: center;
+}
+
+.visualizarColaborador button.btn-primary {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+.visualizarColaborador button.btn-primary:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: black;
+}
+
+
+
+
+
+.table, th, td{
+	color: white;
+	background-color: rgb(245,128,32, .2);
+}
+
+h1, th {
+	color: white;
+	text-align: center;
+}
+
+input:not([value=""]):not(:focus):invalid {
+    border: 1px solid red;
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid #ccff33;
+}
+
+label {
+	transition: 0.6s;
+	text-shadow: 0.1em 0.1em #000;
+	color: white;
+}
+
+thead {
+	border-width: 10px 10px 0px 10px;
+	border-color: rgb(245,128,32);
+	border-style: inset;
+	border-radius:25px;
+}
+
+tbody {
+	border-width: 0px 10px;
+	border-style: inset;
+	border-color: rgb(245,128,32);
+	border-radius:25px;
+}

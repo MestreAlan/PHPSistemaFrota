@@ -1,0 +1,181 @@
+#login{
+	min-height: 550px;
+}
+
+#password-strength-status{
+	width: 150px;
+	position: relative;
+	max-width: 300px;
+	height: 25px;
+	margin-bottom: 60px;
+	left: 60px;
+	top: 1px;	
+}
+
+.input_senha .fa-eye,.fa-eye-slash {
+	position:absolute;
+	right: 5px;
+	padding: 10px 0px;
+	z-index:10;
+	border:none;
+	background:transparent;
+	outline:none;
+	color: orange;
+}
+
+.input_senha {
+	position: relative;
+}
+
+.login-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.form {
+	z-index: 1;
+	background: rgb(90, 90, 90);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8), 0 15px 15px 0 rgba(0, 0, 0, 0.84);
+}
+
+.form input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(0, 0, 0);
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: black;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #b3b3b3;
+	font-size: 12px;
+}
+
+.form .message a {
+	color: white;
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+.form .recuperar-form {
+	display: none;
+}
+
+.weak-password {
+	text-shadow: 0.1em 0.1em #000;
+	color: red;
+}
+
+.medium-password {
+	text-shadow: 0.1em 0.1em #000;
+	color: yellow;
+}
+
+.strong-password {
+	text-shadow: 0.1em 0.1em #000;
+	color: #ccff33;
+}
+
+.very-strong-password {
+	text-shadow: 0.1em 0.1em #000;
+	color: #d6ffff;
+}
+
+.inputbox {
+  position: relative;
+  max-width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-shadow: 0.1em 0.1em #000;
+	color: orange;
+	text-align: center;
+	background-color: black;
+}
+
+.inputbox input:not([value=""]):not(:focus):invalid {
+    border: 1px solid red;
+}
+
+.inputbox input:valid {
+    border: 1px solid #ccff33;
+}
+
+.inputbox:last-child {
+  margin-bottom: 0;
+}
+.inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  text-shadow: 0.1em 0.1em #000;
+  color: white;
+}
+
+.inputbox input:focus ~ span,
+.inputbox input:valid ~ span,
+.inputbox input:not([value=""]):not(:focus):invalid ~ span {
+  transform: translateX(-13px) translateY(-45px);
+  font-size: 1em;
+}
+
+.inputbox [type="button"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+.inputbox:hover [type="button"] {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}

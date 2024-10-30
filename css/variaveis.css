@@ -1,0 +1,38 @@
+:root{
+	--geral-cor-verde:#198754;
+	--geral-cor-vermelho:#dc3545;
+	--geral-cor-azul:#0680ff;
+	--geral-cor-cinza1:#3a444e;
+	--geral-cor-cinzaB:#59626b;
+	--geral-cor-cinzaBE:#eeeeee;
+	--geral-cor-cinzaM:#303a46;
+	--geral-cor-laranja:#f58020;
+	--geral-cor-cinzaC1:#bbbbbb;
+	--geral-cor-cinzaC2:#dddddd;
+	--geral-cor-cinzaCE:#b4b4b4;
+	--geral-cor-cinzaBC:#faf4fe;
+	--geral-cor-branco:#ffffff;
+	--geral-cor-preto:#000000;
+	--geral-cor-cinzaE:#393939;
+	--geral-cor-cinzaEE:#404040;
+}
+
+@font-face {
+	font-family: Nunito-Regular;
+	src: url('fonts/Nunito/Nunito-Regular.ttf');
+}
+
+@font-face {
+	font-family: Nunito-Medium;
+	src: url('fonts/Nunito/Nunito-Medium.ttf');
+}
+
+@font-face {
+	font-family: Nunito-Bold;
+	src: url('fonts/Nunito/Nunito-Bold.ttf');
+}
+
+@font-face {
+	font-family: Nunito-Italic;
+	src: url('fonts/Nunito/Nunito-Italic.ttf');
+}

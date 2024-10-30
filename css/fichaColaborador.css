@@ -1,0 +1,287 @@
+.btnSalvarDadosGerais.verde, .enderecos.verde, .btncontato.verde{
+	background-color: green;
+	color: white;
+}
+
+.btnSalvarDadosGerais.vermelho, .enderecos.vermelho, .btncontato.vermelho{
+	background-color: red;
+	color: white;
+}
+
+.btnSalvarDadosPessoais.verde{
+	background-color: green;
+	color: white;
+}
+
+.btnSalvarDadosPessoais.vermelho{
+	background-color: red;
+	color: white;
+}
+
+.documentosForm{
+	background-color: rgb(0,0,0,0.5);
+}
+
+input, select {
+	top: 0;
+	left: 0;
+	border: 2px solid #000;
+	outline: none;
+	background: none;
+	padding: 8px;
+	border-radius: 10px;
+	text-shadow: 0.1em 0.1em #000;
+	color: orange;
+	text-align: center;
+	background-color: black;
+	margin: 8px;
+}
+
+input[type='file']{
+	display: none;
+}
+
+.img_pessoa_container{
+	max-width: 1200px;
+	width: 100%;
+}
+
+#img_pessoa_photo{
+	margin-top: 10%;
+	width: 300px;
+	height: 300px;
+	padding: 2px;
+	background-color: #eee;
+	border: 8px solid rgb(245,128,32);
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background .3s;
+	margin: 10px auto;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#img_pessoa_photo:hover{
+	background-color: rgb(180,180,180);
+	border: 8px solid #0680ff;
+}
+
+.uniao {
+	white-space: inherit;
+	border-color: black;
+	padding-left: 5px;
+}
+
+.juncao {
+	border-style: inset;
+	border-width: 1px;
+}
+
+.texto {
+	font-size: 15px;
+	max-width:1055px;
+	mim-width:270px;
+	width:100%
+}
+
+#dadosPessoaisNaturalidade, #dadosPessoaisRGEmissor, #dadosPessoaisMunicipioTitulo {
+	font-size: 15px;
+	width:200px;
+}
+
+#dadosPessoaisCPF {
+	font-size: 15px;
+	width:120px;
+}
+
+#dadosPessoaisRG {
+	font-size: 15px;
+	width:100px;
+}
+
+#estadosBrasil0, #estadosBrasil1, #estadosBrasil2, #estadosBrasil3, #categoriaCNH, #dadosPessoaisIdade, #dadosProfissionaisTempoServico {
+	font-size: 15px;
+	width: 66px;
+}
+
+.date {
+	font-size: 15px;
+	max-width: 100px;
+}
+
+#fatorRH {
+	font-size: 15px;
+	max-width: 70px;
+}
+
+#estadoCivil, #sexo {
+	font-size: 15px;
+	max-width: 200px;
+}
+
+#escolaridade {
+	font-size: 15px;
+	max-width: 210px;
+}
+
+#dadosPessoaisNumTitulo, #dadosProfissionaisPIS {
+	font-size: 15px;
+	width: 140px;
+}
+
+#dadosPessoaisSecaoTitulo, #dadosPessoaisZonaTitulo {
+	font-size: 15px;
+	width: 65px;
+}
+
+#dadosPessoaisNumCNH {
+	font-size: 15px;
+	width: 120px;
+}
+
+#dadosPessoaisNumReservista {
+	font-size: 15px;
+	width: 120px;
+}
+
+#dadosPessoaisSUS {
+	font-size: 15px;
+	width: 140px;
+}
+
+#dadosProfissionaisMatricula, #dadosProfissionaisSerieCTPS {
+	font-size: 15px;
+	width: 75px;
+}
+
+#dadosProfissionaisNumCTPS, #enderecoCasa {
+	font-size: 15px;
+	width: 85px;
+}
+
+#enderecoCEP {
+	font-size: 15px;
+	width: 100px;
+}
+
+#contatoEmail {
+	font-size: 15px;
+	width: 350px;
+}
+
+button.btn-primary {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btn-primary:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: black;
+}
+
+button.btnSalvar {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btnSalvar:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgb(0,128,0) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: white;
+}
+
+button.btnExcluir {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+button.btnExcluir:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgb(255,0,0) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: white;
+}
+
+
+
+
+
+
+.visualizarColaborador {
+	color: white;
+	text-align: center;
+}
+
+.visualizarColaborador button.btn-primary {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	color: black;
+}
+
+.visualizarColaborador button.btn-primary:hover {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: rgb(245,128,32);
+	background-image: radial-gradient(circle, rgba(245,128,32) 0%, rgba(255,255,255,1) 100%, rgba(245,128,32,1) 100%);
+	color: black;
+}
+
+
+
+
+
+.table, th, td{
+	color: white;
+	background-color: rgb(245,128,32, .2);
+}
+
+h1, th {
+	color: white;
+	text-align: center;
+}
+
+input:not([value=""]):not(:focus):invalid {
+    border: 1px solid red;
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid #ccff33;
+}
+
+label {
+	transition: 0.6s;
+	text-shadow: 0.1em 0.1em #000;
+	color: white;
+}
+
+thead {
+	border-width: 10px 10px 0px 10px;
+	border-color: rgb(245,128,32);
+	border-style: inset;
+	border-radius:25px;
+}
+
+tbody {
+	border-width: 0px 10px;
+	border-style: inset;
+	border-color: rgb(245,128,32);
+	border-radius:25px;
+}
